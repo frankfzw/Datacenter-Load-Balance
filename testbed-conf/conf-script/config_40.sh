@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-#route add -net 192.168.102.0/24 gw 192.168.101.254
-#ip address add 192.168.101.11/24 dev eth1
-#ip address add 192.168.101.21/24 dev eth1
-#ip address add 192.168.101.31/24 dev eth1
-#ip address add 192.168.101.41/24 dev eth1
+route add -net 192.168.102.0/24 gw 192.168.101.254
+ip address add 192.168.101.11/24 dev eth1
+ip address add 192.168.101.21/24 dev eth1
+ip address add 192.168.101.31/24 dev eth1
+ip address add 192.168.101.41/24 dev eth1
 
 
 arp -s 192.168.101.254 00:00:00:00:65:FE
